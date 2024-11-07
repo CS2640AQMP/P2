@@ -29,7 +29,7 @@ invalidScore: .asciiz "\nThe letter grade must be an integer greater than 0. Ple
 .text
 #Required Label
 main:
-	#Initialize $s1 and $s2 to 'Y' and 'N' ASCII values, respectively
+	#Initialize $s0 and $s1 to 'Y' and 'N' ASCII values, respectively
 	li $s0, 89
 	li $s1, 78
 
